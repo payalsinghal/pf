@@ -19,4 +19,4 @@ website                 :{ type: String, required: true },
 contact_number          :{ type: Number, required: true }
 
 });
-module.exports = mongoose.model('Training_int_Register', training_int_RegisterSchema);
+module.exports = mongoose.model('Training_int_Register', Training_int_RegisterSchema);

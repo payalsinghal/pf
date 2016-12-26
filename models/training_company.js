@@ -17,8 +17,8 @@ contact_number          :{ type: Number, required: true },
 email                   :{ type: String, required: true },
 PAN_Number              :{ type: String, required: true },
 service_tax_number      :{ type: String},
-website                 :{ type: String, required: true },
+website                 :{ type: String, required: true }
 
 
 });
-module.exports = mongoose.model('TrainingRegister', trainingRegisterSchema);
+module.exports = mongoose.model('TrainingRegister', TrainingRegisterSchema);

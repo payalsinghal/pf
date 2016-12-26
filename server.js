@@ -6,7 +6,7 @@ var jsonparser = require('json-parser');
 var mongoose = require('mongoose');
 var passport = require('passport'); 
 
-mongoose.connect('mongodb://localhost/paperflow');
+mongoose.connect('mongodb://localhost/pf');
 //mongoose.connect('mongodb://52.66.15.53:27017/pickmybox');
 
 
